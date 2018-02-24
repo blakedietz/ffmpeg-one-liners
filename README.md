@@ -15,7 +15,7 @@ done
 for f in *\ *; do mv "$f" "${f// /-}"; done
 ```
 
-## Concat all files into a single file
+## Concat all videos in a directory into a single video
 
 ```bash
 # Create a file to load into the concat command
