@@ -1,5 +1,13 @@
 # ffmpeg-one-liners
 
+## Convert
+
+### Convert mov to mp4
+
+```bash
+ffmpeg -i in.mov -vcodec h264 -acodec aac -strict -2 out.mp4
+```
+
 ## Downsize all files in a directory
 
 ```bash
